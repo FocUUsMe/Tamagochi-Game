@@ -107,7 +107,29 @@
                     }
             }
     }
+.m-stat span{
+width: 200px;
+height: 10px;
 
+    
+}
+.s-stat span{
+width: 200px;
+
+}
+.h-stat span{
+width: 200px;
+}
+.food{
+    display: none;
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    img{
+        width: 100px;
+    }
+}
     .loc-btns{
         position: absolute;
         bottom: 0;

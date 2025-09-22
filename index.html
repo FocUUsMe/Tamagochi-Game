@@ -13,7 +13,9 @@
             <section class="scene">
                 <div class="scenes"> <!--Сцены дома-->
                     <div class="" id="kitchen"></div>
-
+<button class="food" id="apple"><img src="./assets/food/apple.svg" alt=""></button>
+<button class="food" id="milk"><img src="./assets/food/milk.png" alt=""></button>
+<button class="food"  id="meat"><img src="./assets/food/meat.png" alt=""></button>
                     <div class="livingroom" id="livingroom">
                         <div class="main-livroom">
                             <div class="furniture">
@@ -56,15 +58,21 @@
             </section>
 
             <div class="stats"> <!--Статистика персонажа-->
-                <span class="stat" id="mood_stat">
+                <div class=" m-stat">
+                    <span class="stat" id="mood_stat">
                     <img src="./assets/icons/smile.svg" alt=""> <div data-color="seagreen"></div>
                 </span>
-                <span class="stat" id="hunger_stat">
-                    <img src="./assets/icons/apple.svg" alt=""> <div data-color="orangered"></div>
+                </div>
+                <div class="h-stat">
+                     <span class=" stat" id="hunger_stat">
+                    <img src="./assets/icons/apple.svg" alt=""> <div  data-color="orangered"></div>
                 </span>
-                <span class="stat" id="sleep_stat">
+                </div>
+               <div class="s-stat">
+                <span class=" stat" id="sleep_stat">
                     <img src="./assets/icons/bed-double.svg" alt=""> <div data-color="violet"></div>
                 </span>
+               </div>
             </div>
 
             <div class="loc-btns"> <!--Кнопки для переключения между комнатами-->
