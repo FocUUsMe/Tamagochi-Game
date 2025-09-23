@@ -54,7 +54,7 @@ hunger = hunger + food.apple
 hStat.style.width = hunger + 'px';
 setTimeout(() => {
 apple.style.display = 'flex'
-},8700);
+},7000);
 }    
 }
 function hungerUpMilk(){
@@ -64,7 +64,7 @@ hunger = hunger + food.milk
 hStat.style.width = hunger + 'px';
 setTimeout(() => {
 milk.style.display = 'flex'
-},12000);
+},14000);
 }    
 }
 function hungerUpMeat(){
@@ -74,14 +74,14 @@ hunger = hunger + food.meat
 hStat.style.width = hunger + 'px';
 setTimeout(() => {
 meat.style.display = 'flex'
-},20000);
+},17500);
 }    
 }
 //функция пополнения счастья
 function happinesUp(){
 if(happines<200){
 toy.style.display = 'none'
-happines = happines + 10 
+happines = happines + 25 
 mStat.style.width = happines + 'px';
 setTimeout(() => {
 toy.style.display = 'flex'
