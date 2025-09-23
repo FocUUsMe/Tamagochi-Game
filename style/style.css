@@ -120,6 +120,7 @@ width: 200px;
 .h-stat span{
 width: 200px;
 }
+
 .food{
     display: none;
     outline: none;
@@ -127,8 +128,16 @@ width: 200px;
     border: none;
     cursor: pointer;
     img{
-        width: 100px;
+        width: 75px;
     }
+}
+#toy-livroom{
+position: absolute;
+        width: 70px;
+        bottom: -25px;
+        right: 120px;
+    transform: rotate(30deg);
+    cursor: pointer;
 }
     .loc-btns{
         position: absolute;
